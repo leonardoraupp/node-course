@@ -10,3 +10,7 @@ Utilizando modulos core do Node,como por exemplo o módulo  Http.
 A4. Conceitos importantes sobre Exports no sistema de módulos, this, exports, são 2 referências que apontam para o mesmo objeto(objeto vazio inicialmente criado {})que module.exports aponta. 
 A partir do momento que o objeto é alterado, ao atribuir um novo objeto para o module, e tentar sobrescrever e exportar sem que seja atráves de module.exports, não funcionará, apenas module.exports pode mudar o que será exportado. 
 
+
+A5. Utilizando a dependência axios para fazer requisições http para uma api de funcionários.
+Salvando a depência axios no package.json, que é o arquivo descritivo do node, onde mostra as informações do projeto e as depências do projeto, mas a visão mais elaborada das dependências do projeto ficam no arquivo package-lock.json. 
+Para que tenha esses arquivos e possa ter as dependências indicadas neles, é necessário iniciar um repositório node, que pode ser feito a  partir do comando npm init.
