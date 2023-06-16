@@ -21,3 +21,5 @@ A7. Foi abordado sobre o objeto global, que assim como existe o window que é o 
 
 A8. Comportamento do this no Node. Dentro do módulo no Node, o this aponta para o objeto module.exports ou exports e não aponta para o objeto global. Ou seja ao atribuir dados para o this, não está declarando para o objeto global mas sim para o module.exports, ficando visivel para fora do móbulo(público).
 No entando, no espopo de uma função, dentro da função, o this aponta para global e não aponta para module.exports ou exports, ou seja tudo criado no this será criado de maneira global e não no módulo para ser exportado publicamente. Essas são as suas nuances no Node.
+
+A9. Foram visto a diferenças do comportamento do this, como se comporta no módulo, expressão de função(função tradicional), como visto no A8, mas agora como se comporta dentro de uma arrow function. Dentro da arrow function o this tem o mesmo padrão de comportamento que teria no escopo do módulo no Node.
