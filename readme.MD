@@ -23,3 +23,5 @@ A8. Comportamento do this no Node. Dentro do módulo no Node, o this aponta para
 No entando, no espopo de uma função, dentro da função, o this aponta para global e não aponta para module.exports ou exports, ou seja tudo criado no this será criado de maneira global e não no módulo para ser exportado publicamente. Essas são as suas nuances no Node.
 
 A9. Foram visto a diferenças do comportamento do this, como se comporta no módulo, expressão de função(função tradicional), como visto no A8, mas agora como se comporta dentro de uma arrow function. Dentro da arrow function o this tem o mesmo padrão de comportamento que teria no escopo do módulo no Node.
+
+A10. Aprendendo a passar parametros para o módulo. Basicamente atribuindo uma função com parametros ao módulo, automaticamente o módulo passa a receber parametros, sendo possivel passar parametros para esse módulo de algum outro módulo que o requira.
