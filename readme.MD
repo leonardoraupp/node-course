@@ -30,3 +30,5 @@ A11. Aprofundamento sobre os arquivo descritivo do Node, package.js. Sobre os sc
 Graças ao arquivo package.js é possível deletar a pasta node_modules e criá-la sempre que quiser, bastando apenas usar o script npm i ou npm install a pasta é instalada novamente com todas as dependências descritas no package.js. Por essa razão que a pasta node_modules não é subida no gerenciador de versões de projeto(Github e entre outros)
 
 A12. Como fazer a leitura de arquivos e diretórios em Node com o módulo core fs(file system). A leitura pode ser sincrona, que dependendo do tamanho do que será lido pode ser ruim, pois atrasa e deixa lento os ciclo Event do Node, ou pode ser assincrona, sendo implementada através de uma callback.
+
+A13. Como fazer escrita de arquivo a partir do módulo core fs do Node.  Em si é feito através do método writeFile, passando 3 argumentos, o path seguido do nome do arquivo que deseja criar, o conteúdo e uma callback.  
