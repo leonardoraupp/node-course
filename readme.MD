@@ -34,3 +34,6 @@ A12. Como fazer a leitura de arquivos e diretórios em Node com o módulo core f
 A13. Como fazer escrita de arquivo a partir do módulo core fs do Node.  Em si é feito através do método writeFile, passando 3 argumentos, o path seguido do nome do arquivo que deseja criar, o conteúdo e uma callback.  
 
 A14. Aprendizado sobre middlewares, ou também conhecido como change of responsability. Basicamente é um padrão de criar uma cadeia de responsabilidades através de funções, sem forte acoplamento, independentes, que de maneira que seja faça um inversão de passos não afete a cadeia. Podemos fazer isso criando funções, que recebem parametros,sendo um dele uma função next() que aponta para outra função desejada. Ne ExpressJS é necessário três parametros, a request, response e a função next. 
+
+
+A15. Integrando o Express  e o Nodemon juntos para criar um projeto de API Rest, baseado no padrão de projeto Middleware(change of responsability)
