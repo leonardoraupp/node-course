@@ -42,3 +42,5 @@ A15. Integrando o Express  e o Nodemon juntos para criar um projeto de API Rest,
 A16. Criando uma API Rest com o Express e Nodemon integrados. Utilizando o pacote nodeParser para fazer o parser de urlencoded para objeto e assim ser possível persistir os dados no banco de dados em memória.
 
 A17. Introdução ao Schedule Node, cujo objetivo é criar atividades programadas, ou "schedule jobs". É possível programar tarefas para executar em intervalos de tempos, segundos, minutos, horas, dias, dias da semana e mês. Com o auxiliar de outras funções do Javascript, como setInterval, setTimeout é possível criar tarefas programadas também, mas usando o pacote node-schecule pode ser mais conveniente no dia a dia. Foi utilizado o setTimeout para implementar o cancelamento de uma tarefa do node-schedule. 
+
+A18. Introdução ao objeto global do Node process, que é usado em operações de entreda e saida(teclado e tela). Onde é possível configurar saida para determinados tipos de entrada no terminal. 
