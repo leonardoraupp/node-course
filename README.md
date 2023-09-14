@@ -1,5 +1,5 @@
-#Projeto de estudos do NodeJS
-Nesse projeto registrei todas as minhas aulas de NodeJS. 
+# Projeto de estudo do NodeJS
+Nesse projeto eu registrei todas as minhas aulas de NodeJS. 
 
 A1. Importação e exportação de módulos seguindo o padrão CommonJS module.
     
